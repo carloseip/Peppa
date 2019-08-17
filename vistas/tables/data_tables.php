@@ -1,6 +1,9 @@
 <?php
+	session_start();
   $active_menu = "data_tables";
   include_once "../layout/header.php";
+  
+	if(isset($_SESSION['usuario'])){
 ?>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -39,3 +42,10 @@
 
 <?php include_once "../layout/footer.php" ?>
 <script src="data_tables/script.js"></script>
+
+
+<?php 
+	}else{
+		header("location:../auth");
+	}
+ ?>

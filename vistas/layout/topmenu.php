@@ -18,7 +18,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="../../dist/img/user.png" class="user-image" alt="User Image">
-              <span class="hidden-xs">Kelly Pariona</span>
+              <span class="hidden-xs"><?php echo $_SESSION['nombres']; echo' '; echo $_SESSION['apellidop'];?></span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -26,8 +26,8 @@
                 <img src="../../dist/img/user.png" class="img-circle" alt="User Image">
 
                 <p>
-                  Kelly Pariona - Analista de Sistemas
-                  <!-- <small>Member since Nov. 2012</small> -->
+                <?php echo $_SESSION['nombres']; echo' '; echo $_SESSION['apellidop']; ?>
+                  <small><?php echo $_SESSION['usuario'];?></small>
                 </p>
               </li>
               </li>
@@ -37,7 +37,7 @@
                   <a href="#" class="btn btn-default btn-flat">Perfil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="../../controlador/salir.php" class="btn btn-default btn-flat">Cerrar Sesión</a>
+                  <a href="../../controlador/usuarios/salir.php" class="btn btn-default btn-flat">Cerrar Sesión</a>
                 </div>
               </li>
             </ul>

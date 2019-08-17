@@ -49,14 +49,14 @@
 			$.ajax({
 				type:"POST",
 				data:datos,
-				url:"../../controlador/registrar.php",
+				url:"../../controlador/usuarios/registrar.php",
 				success:function(r){
 					if(r==1){
 						alert("Agregado con exito");
 						$.ajax({
 							type:"POST",
 							data:datos,
-							url:"../../controlador/login.php",
+							url:"../../controlador/usuarios/login.php",
 							success:function(r){
 								if(r==1){									
 							        window.location="../tables/data_tables.php";

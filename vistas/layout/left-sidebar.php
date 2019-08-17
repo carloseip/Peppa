@@ -17,7 +17,7 @@
           <img src="../../dist/img/user.png" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Kelly Pariona</p>
+          <p><?php echo $_SESSION['nombres']; echo' '; echo $_SESSION['apellidop'];?></p>
           <a href="../tables/data_tables.php"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>

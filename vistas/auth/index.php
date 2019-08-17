@@ -51,7 +51,7 @@
 				$.ajax({
 					type:"POST",
 					data:datos,
-					url:"../../controlador/login.php",
+					url:"../../controladoro/login.php",
 					success:function(r){
 						if(r==1){
 							window.location="../tables/data_tables.php";
