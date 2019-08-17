@@ -1,7 +1,7 @@
 <?php 
 	session_start();
-	require_once "../datos/conexionBD.php";
-	require_once "../datos/Usuarios.php";
+	require_once "../../datos/conexionBD.php";
+	require_once "../../datos/Usuarios.php";
 
 	$obj= new usuarios();
 

@@ -3,6 +3,6 @@
 
 	session_destroy();
 
-	header("location:../vistas/auth");
+	header("location:../../vistas/auth");
 
  ?>

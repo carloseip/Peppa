@@ -6,7 +6,7 @@
 	if(isset($_SESSION['usuario'])){
 ?>
 
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-purple sidebar-mini">
   <!-- Put Page-level css and javascript libraries here -->
 
   <!-- DataTables -->
