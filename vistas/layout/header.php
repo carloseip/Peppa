@@ -35,6 +35,7 @@
 
   <!-- Bootstrap 3.3.6 -->
   <script src="../../bootstrap/js/bootstrap.min.js"></script>
+	<script src="../../dist/js/funciones.js"></script>
 
   <?php include_once "functions.php" ?>
 </head>
