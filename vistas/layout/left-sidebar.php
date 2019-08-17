@@ -18,7 +18,7 @@
         </div>
         <div class="pull-left info">
           <p>Kelly Pariona</p>
-          <a href="pages/dashboard"><i class="fa fa-circle text-success"></i> Online</a>
+          <a href="../tables/data_tables.php"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
       <!-- search form -->
@@ -45,13 +45,13 @@
           </a>
           <ul class="treeview-menu">
             <li <?php isActive("general_elements") ?>>
-              <a href="../../pages/forms/general_elements.php"><i class="fa fa-circle-o"></i> General Elements </a>
+              <a href="../forms/general_elements.php"><i class="fa fa-circle-o"></i> General Elements </a>
             </li>
             <li <?php isActive("advanced_elements") ?>>
-              <a href="../../pages/forms/advanced_elements.php"><i class="fa fa-circle-o"></i> Advanced Elements </a>
+              <a href="../forms/advanced_elements.php"><i class="fa fa-circle-o"></i> Advanced Elements </a>
             </li>
             <li <?php isActive("editors") ?>>
-              <a href="../../pages/forms/editors.php"><i class="fa fa-circle-o"></i> Editors </a>
+              <a href="../forms/editors.php"><i class="fa fa-circle-o"></i> Editors </a>
             </li>
           </ul>
         </li>
@@ -65,12 +65,12 @@
           </a>
           <ul class="treeview-menu">
             <li <?php isActive("simple_tables") ?>>
-              <a href="../../pages/tables/simple_tables.php"><i class="fa fa-circle-o"></i> Simple Tables </a>
+              <a href="../tables/simple_tables.php"><i class="fa fa-circle-o"></i> Simple Tables </a>
             </li>
           </ul>
           <ul class="treeview-menu">
             <li <?php isActive("data_tables") ?>>
-              <a href="../../pages/tables/data_tables.php"><i class="fa fa-circle-o"></i> Data Tables </a>
+              <a href="../tables/data_tables.php"><i class="fa fa-circle-o"></i> Data Tables </a>
             </li>
           </ul>
         </li>
@@ -84,59 +84,25 @@
           </a>
           <ul class="treeview-menu">
             <li <?php isActive("invoice") ?>>
-              <a href="../../pages/examples/invoice.php"><i class="fa fa-circle-o"></i> Invoice</a>
+              <a href="../examples/invoice.php"><i class="fa fa-circle-o"></i> Invoice</a>
             </li>
             <li <?php isActive("profile") ?>>
-              <a href="../../pages/examples/profile.php"><i class="fa fa-circle-o"></i> Profile</a>
+              <a href="../examples/profile.php"><i class="fa fa-circle-o"></i> Profile</a>
             </li>
             <li <?php isActive("login") ?>>
-              <a href="../../pages/examples/login.php"><i class="fa fa-circle-o"></i> Login</a>
+              <a href="../examples/login.php"><i class="fa fa-circle-o"></i> Login</a>
             </li>
             <li <?php isActive("register") ?>>
-              <a href="../../pages/examples/register.php"><i class="fa fa-circle-o"></i> Register</a>
+              <a href="../examples/register.php"><i class="fa fa-circle-o"></i> Register</a>
             </li>
             <li <?php isActive("blank") ?>>
-              <a href="../../pages/examples/blank.php"><i class="fa fa-circle-o"></i> Blank Page</a>
+              <a href="../examples/blank.php"><i class="fa fa-circle-o"></i> Blank Page</a>
             </li>
             <li <?php isActive("pace") ?>>
-              <a href="../../pages/examples/pace.php"><i class="fa fa-circle-o"></i> Pace Page</a>
+              <a href="../examples/pace.php"><i class="fa fa-circle-o"></i> Pace Page</a>
             </li>
           </ul>
         </li>
-
-        <!-- <li class="treeview">
-          <a href="#">
-            <i class="fa fa-share"></i> <span>Multilevel</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-            <li>
-              <a href="#"><i class="fa fa-circle-o"></i> Level One
-                <span class="pull-right-container">
-                  <i class="fa fa-angle-left pull-right"></i>
-                </span>
-              </a>
-              <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> Level Two</a></li>
-                <li>
-                  <a href="#"><i class="fa fa-circle-o"></i> Level Two
-                    <span class="pull-right-container">
-                      <i class="fa fa-angle-left pull-right"></i>
-                    </span>
-                  </a>
-                  <ul class="treeview-menu">
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                    <li><a href="#"><i class="fa fa-circle-o"></i> Level Three</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
-          </ul>
-        </li> -->
       </ul>
     </section>
     <!-- /.sidebar -->
